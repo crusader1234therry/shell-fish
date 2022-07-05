@@ -51,8 +51,9 @@ alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
 alias g git
+alias nvim lvim
 
-set -gx EDITOR nvim
+set -gx EDITOR lvim
 
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
