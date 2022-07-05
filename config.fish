@@ -51,7 +51,6 @@ alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
 alias g git
-alias vi "nvim"
 
 set -gx EDITOR nvim
 
