@@ -102,6 +102,4 @@ fish_add_path /Users/therryhilaire/Applications/Visual Studio Code.app/Contents/
 
 fish_add_path /Users/therryhilaire/flutter/bin
 
-set -gx LDFLAGS "-L/usr/local/opt/node@16/lib"
-set -gx CPPFLAGS "-I/usr/local/opt/node@16/include"
 set -gx PATH /opt/local/bin:/opt/local/sbin:$PATH
