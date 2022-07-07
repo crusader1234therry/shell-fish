@@ -1,7 +1,5 @@
 set fish_greeting ""
 
-set -gx TERM xterm-256color
-
 set --export PATH $HOME/.cargo/bin $PATH
 
 # theme
@@ -51,7 +49,6 @@ alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
 alias g git
-alias nvim lvim
 
 set -gx EDITOR lvim
 
